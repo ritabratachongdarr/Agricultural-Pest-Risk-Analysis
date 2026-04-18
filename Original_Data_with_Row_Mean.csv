@@ -1,0 +1,85 @@
+Sensor_ID,Product_Name,Product_Type,Weather_Preference,States_Preference,Region_Preference,Soil_Moisture_%,Temperature_C,Humidity_%,Pest_Risk_%,Irrigation_Needed,Fertilizer_Required,Row_Mean
+1,Wheat,Cereal Crop,Cool & Dry (Rabi),"Punjab, UP, MP",Plains,25.0,20.0,55.0,20.0,Yes (2–3 cycles),"Urea, DAP, Potash",30.0
+2,Rice,Cereal Crop,Warm & Humid (Kharif),"WB, TN, AP, Bihar",Plain/Delta,50.0,30.0,80.0,40.0,Yes (Flood/Irrigation),"Urea, SSP, MOP",50.0
+3,Mango,Fruit Tree,Warm & Dry Summer,"Maharashtra, UP",Tropical/Subtropical,20.0,27.0,60.0,25.0,Moderate (Flowering),"FYM, Potash, Zinc",33.0
+4,Apple,Fruit Tree,Cold & Temperate,"HP, J&K, Uttarakhand",Hills,25.0,15.0,50.0,15.0,Yes (Drip),"FYM, Calcium, Boron",26.25
+5,Banana,Fruit Crop,Warm & Humid,"TN, Kerala, MH",Tropical,70.0,28.0,85.0,30.0,High (Weekly),"NPK, FYM, Magnesium",53.25
+6,Tomato,Vegetable,Warm & Semi-Humid,"Karnataka, AP, MP",Plains/Hills,40.0,24.0,70.0,50.0,Yes (Frequent),"NPK, Calcium, Boron",46.0
+7,Grapes,Fruit Vine,Dry & Sunny,"MH, Karnataka",Semi-arid,25.0,27.5,50.0,25.0,Yes (Drip),"Potash, FYM, Zinc",31.875
+8,Potato,Tuber Crop,Cool & Moist,"UP, WB, Punjab",Hills/Plains,35.0,17.5,65.0,25.0,Yes (2–3 cycles),"Urea, DAP, MOP",35.625
+9,Black Pepper,Spice Vine,Humid & Shaded,"Kerala, Karnataka",Hills (Western Ghats),50.0,25.0,80.0,35.0,Yes (Rainfed + Drip),"FYM, Potash, Zinc",47.5
+10,Pomegranate,Fruit Shrub,Dry & Sunny,"MH, Gujarat, AP",Semi-arid,25.0,30.0,50.0,20.0,Yes (Drip),"FYM, Potash, Boron",31.25
+11,Peach,Fruit Tree,Temperate & Cool,"HP, J&K, Uttarakhand",Hills,25.0,17.5,60.0,25.0,Yes (Drip),"FYM, Potash, Boron",31.875
+12,Knol-Khol,Vegetable,Cool & Moist,"WB, Punjab, Karnataka",Hills/Plains,35.0,20.0,70.0,30.0,Yes (Frequent),"NPK, FYM",38.75
+13,Pear,Fruit Tree,Temperate & Moist,"HP, J&K, Uttarakhand",Hills,30.0,18.5,60.0,25.0,Yes (Seasonal),"FYM, Potash, Zinc",33.375
+14,Garlic,Bulb Crop,Cool & Dry,"MP, Gujarat, Punjab",Plains,30.0,16.0,55.0,25.0,Yes (2–3 cycles),"Urea, DAP, MOP",31.5
+15,Cherry,Fruit Tree,Cold & Temperate,"HP, J&K",Hills,25.0,14.0,60.0,25.0,Yes (Drip),"FYM, Potash, Boron",31.0
+16,Watermelon,Fruit Crop,Warm & Dry,"UP, MH, Karnataka",Plains,25.0,30.0,50.0,30.0,Yes (Seasonal),"NPK, FYM",33.75
+17,Fig,Fruit Tree,Warm & Dry,"MH, Gujarat, TN",Semi-arid,25.0,27.0,50.0,25.0,Yes (Drip),"FYM, Potash, Zinc",31.75
+18,Carrot,Root Crop,Cool & Moist,"Punjab, WB, Karnataka",Plains/Hills,35.0,17.5,70.0,25.0,Yes (Frequent),"Urea, DAP, MOP",36.875
+19,Lemon,Fruit Shrub,Warm & Humid,"TN, Kerala, MH",Tropical/Subtropical,40.0,25.0,70.0,30.0,Yes (Drip),"FYM, Potash, Zinc",41.25
+20,Mustard Greens,Leafy Veg,Cool & Dry,"UP, Punjab, WB",Plains,30.0,20.0,55.0,25.0,Yes (2–3 cycles),"Urea, DAP, FYM",32.5
+21,Bitter Gourd,Vegetable,Warm & Humid,"WB, Bihar, TN",Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+22,Coconut,Plantation,Warm & Humid,"Kerala, TN, Goa",Plains,70.0,28.5,85.0,25.0,Yes (Rainfed + Drip),"FYM, Potash, Magnesium",52.125
+23,Soybean,Oilseed Crop,Warm & Moist,"MP, Maharashtra, Rajasthan",Coastal,35.0,27.5,65.0,30.0,Yes (Seasonal),"Urea, DAP, MOP",39.375
+24,Apricot,Fruit Tree,Cold & Temperate,"HP, J&K",Plains,25.0,15.0,60.0,25.0,Yes (Drip),"FYM, Potash, Boron",31.25
+25,Onion,Bulb Crop,Warm & Dry,"MH, Gujarat, Karnataka",Hills,30.0,25.0,55.0,35.0,Yes (Seasonal),"Urea, DAP, MOP",36.25
+26,Coriander,Spice/Herb,Cool & Dry,"Rajasthan, MP, Gujarat",Plains,25.0,20.0,55.0,25.0,Yes (Light),"FYM, Potash, Zinc",31.25
+27,Cumin,Spice Seed,Dry & Sunny,"Rajasthan, Gujarat",Plains,25.0,25.0,50.0,25.0,Yes (Light),"FYM, Potash, Zinc",31.25
+28,Cabbage,Leafy Veg,Cool & Moist,"WB, Punjab, Karnataka",Arid/Semi-arid,35.0,17.5,70.0,30.0,Yes (Frequent),"NPK, FYM",38.125
+29,Rajma,Pulse Crop,Cool & Dry,"HP, Uttarakhand, J&K",Hills/Plains,30.0,21.5,55.0,25.0,Yes (Seasonal),"Urea, DAP, FYM",32.875
+30,Lettuce,Leafy Veg,Cool & Moist,"WB, Karnataka, Punjab",Hills/Plains,35.0,17.5,70.0,25.0,Yes (Frequent),"NPK, FYM",36.875
+31,Snake Gourd,Vegetable,Warm & Humid,"WB, Bihar, TN",Hills/Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+32,Ridge Gourd,Vegetable,Warm & Humid,"WB, Bihar, TN",Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+33,Broccoli,Leafy Veg,Cool & Moist,"Punjab, WB, Karnataka",Plains,35.0,17.5,70.0,30.0,Yes (Frequent),"NPK, FYM",38.125
+34,Colocasia,Tuber Crop,Warm & Moist,"WB, Odisha, Assam",Hills/Plains,50.0,27.5,80.0,35.0,Yes (Seasonal),"FYM, Potash, Zinc",48.125
+35,Mustard,Oilseed Crop,Cool & Dry,"UP, Punjab, Rajasthan",Plains,30.0,20.0,55.0,25.0,Yes (2–3 cycles),"Urea, DAP, MOP",32.5
+36,Niger,Oilseed Crop,Dry & Sunny,"MP, Odisha, Chhattisgarh",Plains,25.0,25.0,50.0,25.0,Yes (Light),"FYM, Potash, Zinc",31.25
+37,Plum,Fruit Tree,Cold & Temperate,"HP, J&K",Semi-arid,25.0,15.0,60.0,25.0,Yes (Drip),"FYM, Potash, Boron",31.25
+38,Cauliflower,Flower Veg,Cool & Moist,"WB, Punjab, Karnataka",Hills,35.0,17.5,70.0,30.0,Yes (Frequent),"NPK, FYM",38.125
+39,Muskmelon,Fruit Crop,Warm & Dry,"UP, MH, Karnataka",Hills/Plains,25.0,30.0,50.0,30.0,Yes (Seasonal),"NPK, FYM",33.75
+40,Sunflower,Oilseed Crop,Warm & Dry,"Karnataka, MP, MH",Plains,30.0,25.0,55.0,25.0,Yes (Seasonal),"Urea, DAP, MOP",33.75
+41,Fenugreek,Spice/Herb,Cool & Dry,"Rajasthan, MP, Gujarat",Plains,25.0,20.0,55.0,25.0,Yes (Light),"FYM, Potash, Zinc",31.25
+42,Cucumber,Vegetable,Warm & Humid,"WB, Bihar, TN",Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+43,Green Peas,Pulse Crop,Cool & Moist,"UP, Punjab, WB",Plains,35.0,17.5,65.0,25.0,Yes (Seasonal),"Urea, DAP, FYM",35.625
+44,French Bean,Pulse Crop,Warm & Moist,"Karnataka, MH, TN",Plains,35.0,24.0,65.0,30.0,Yes (Frequent),"NPK, FYM",38.5
+45,Green Cardamom,Spice Crop,Humid & Shaded,"Kerala, Karnataka",Hills/Plains,50.0,25.0,80.0,35.0,Yes (Rainfed + Drip),"FYM, Potash, Zinc",47.5
+46,Strawberry,Fruit Crop,Cool & Moist,"HP, J&K, Uttarakhand",Hills,35.0,17.5,70.0,30.0,Yes (Drip),"FYM, Potash, Boron",38.125
+47,Groundnut,Oilseed Crop,Warm & Dry,"Gujarat, TN, MH",Semi-arid,30.0,27.5,55.0,25.0,Yes (Seasonal),"Urea, DAP, MOP",34.375
+48,Coriander Leaf,Leafy Herb,Cool & Dry,"Rajasthan, MP, Gujarat",Plains,25.0,20.0,55.0,25.0,Yes (Light),"FYM, Potash, Zinc",31.25
+49,Amaranthus,Leafy Veg,Warm & Moist,"WB, TN, Kerala",Plains,35.0,27.5,70.0,30.0,Yes (Frequent),"NPK, FYM",40.625
+50,Pumpkin,Vegetable,Warm & Dry,"UP, Bihar, WB",Plains,30.0,27.5,55.0,30.0,Yes (Seasonal),"NPK, FYM",35.625
+51,Ber,Fruit Tree,Dry & Sunny,"Rajasthan, Gujarat",Arid/Semi-arid,25.0,30.0,50.0,25.0,Yes (Drip),"FYM, Potash, Zinc",32.5
+52,Radish,Root Crop,Cool & Moist,"WB, Punjab, Karnataka",Plains,35.0,17.5,70.0,25.0,Yes (Frequent),"Urea, DAP, MOP",36.875
+53,Green Chili,Vegetable,Warm & Humid,"WB, Bihar, TN",Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+54,Pineapple,Fruit Crop,Warm & Humid,"Kerala, Assam, WB",Coastal/Hills,50.0,27.5,80.0,30.0,Yes (Drip),"FYM, Potash, Zinc",46.875
+55,Moong,Pulse Crop,Warm & Dry,"Rajasthan, MP, UP",Plains,25.0,30.0,50.0,25.0,Yes (Seasonal),"Urea, DAP, FYM",32.5
+56,Ginger,Spice Root,Warm & Moist,"Kerala, Assam, Odisha",Hills/Plains,50.0,27.5,80.0,35.0,Yes (Frequent),"FYM, Potash, Zinc",48.125
+57,Brinjal,Vegetable,Warm & Humid,"WB, Bihar, TN",Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+58,Mosambi,Fruit Tree,Warm & Dry,"Maharashtra, UP",Tropical/Subtropical,30.0,27.5,60.0,25.0,Yes (Drip),"FYM, Potash, Zinc",35.625
+59,Dry Red Chili,Spice Crop,Warm & Dry,"AP, MP, Rajasthan",Semi-arid,30.0,30.0,50.0,35.0,Yes (Seasonal),"FYM, Potash, Zinc",36.25
+60,Spinach,Leafy Veg,Cool & Moist,"WB, Punjab, Karnataka",Plains,35.0,17.5,70.0,25.0,Yes (Frequent),"NPK, FYM",36.875
+61,Sweet Potato,Tuber Crop,Warm & Moist,"Odisha, WB, Assam",Plains,35.0,27.5,70.0,30.0,Yes (Seasonal),"FYM, Potash, Zinc",40.625
+62,Bottle Gourd,Vegetable,Warm & Humid,"WB, Bihar, TN",Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+63,Turmeric,Spice Crop,Warm & Moist,"AP, TN, Odisha",Hills/Plains,50.0,27.5,80.0,35.0,Yes (Frequent),"FYM, Potash, Zinc",48.125
+64,Kinnow,Fruit Tree,Cool & Dry,"Punjab, HP, Rajasthan",Subtropical,30.0,20.0,55.0,25.0,Yes (Drip),"FYM, Potash, Zinc",32.5
+65,Mulberry,Fruit Tree,Warm & Humid,"Karnataka, WB, TN",Tropical,40.0,27.5,70.0,30.0,Yes (Drip),"FYM, Potash, Zinc",41.875
+66,Turnip,Root Crop,Cool & Moist,"Punjab, WB, Karnataka",Plains,35.0,17.5,70.0,25.0,Yes (Frequent),"Urea, DAP, MOP",36.875
+67,Capsicum,Vegetable,Cool & Moist,"HP, Karnataka, Punjab",Hills/Plains,35.0,20.0,70.0,30.0,Yes (Frequent),"NPK, FYM",38.75
+68,Arhar,Pulse Crop,Warm & Dry,"UP, MP, Maharashtra",Plains,30.0,30.0,50.0,25.0,Yes (Seasonal),"Urea, DAP, FYM",33.75
+69,Date Palm,Fruit Tree,Hot & Dry,"Rajasthan, Gujarat",Arid/Coastal,20.0,35.0,40.0,25.0,Yes (Drip),"FYM, Potash, Zinc",30.0
+70,Litchi,Fruit Tree,Warm & Humid,"Bihar, WB, Assam",Subtropical Hills,50.0,27.5,80.0,30.0,Yes (Drip),"FYM, Potash, Boron",46.875
+71,Yam,Tuber Crop,Warm & Moist,"Kerala, WB, Odisha",Plains,35.0,27.5,70.0,30.0,Yes (Seasonal),"FYM, Potash, Zinc",40.625
+72,Jackfruit,Fruit Tree,Warm & Humid,"Kerala, WB, Assam",Tropical,50.0,27.5,80.0,30.0,Yes (Drip),"FYM, Potash, Zinc",46.875
+73,Urad,Pulse Crop,Warm & Dry,"MP, UP, Maharashtra",Plains,25.0,30.0,50.0,25.0,Yes (Seasonal),"Urea, DAP, FYM",32.5
+74,Orange,Fruit Tree,Warm & Dry,"Maharashtra, Punjab",Subtropical Hills,30.0,27.5,60.0,25.0,Yes (Drip),"FYM, Potash, Zinc",35.625
+75,Masoor,Pulse Crop,Cool & Dry,"UP, MP, Bihar",Plains,30.0,20.0,55.0,25.0,Yes (Seasonal),"Urea, DAP, FYM",32.5
+76,Papaya,Fruit Crop,Warm & Humid,"WB, TN, Kerala",Tropical,50.0,27.5,80.0,30.0,Yes (Drip),"FYM, Potash, Boron",46.875
+77,Sesame,Oilseed Crop,Warm & Dry,"Gujarat, Rajasthan",Semi-arid,25.0,30.0,50.0,25.0,Yes (Light),"FYM, Potash, Zinc",32.5
+78,Phalsa,Fruit Shrub,Warm & Dry,"Rajasthan, Gujarat",Semi-arid,25.0,30.0,50.0,25.0,Yes (Drip),"FYM, Potash, Zinc",32.5
+79,Guava,Fruit Tree,Warm & Humid,"UP, MH, Bihar",Tropical/Subtropical,40.0,25.5,70.0,30.0,Yes (Drip),"FYM, Potash, Zinc",41.375
+80,Beetroot,Root Crop,Cool & Moist,"WB, Punjab, Karnataka",Plains,35.0,17.5,70.0,25.0,Yes (Frequent),"Urea, DAP, MOP",36.875
+81,Okra,Vegetable,Warm & Humid,"WB, Bihar, TN",Plains,40.0,27.5,70.0,35.0,Yes (Frequent),"NPK, FYM",43.125
+82,Chana,Pulse Crop,Cool & Dry,"MP, Rajasthan, UP",Plains,30.0,20.0,55.0,25.0,Yes (Seasonal),"Urea, DAP, FYM",32.5
+83,Sapota,Fruit Tree,Warm & Humid,"MH, Karnataka, TN",Tropical,40.0,27.5,70.0,30.0,Yes (Drip),"FYM, Potash, Zinc",41.875
+84,Custard Apple,Fruit Tree,Warm & Dry,"Maharashtra, Gujarat",Semi-arid,30.0,27.5,60.0,25.0,Yes (Drip),"FYM, Potash, Zinc",35.625
