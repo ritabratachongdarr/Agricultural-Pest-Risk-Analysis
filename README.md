@@ -1,72 +1,28 @@
-## Intelligent Crop Profiling and Pest Risk Forecasting
+# Agricultural Pest Risk Prediction & Management System
 
-### Project Overview
+This project implements a Machine Learning pipeline to predict pest risk levels and provide optimized irrigation and pest management suggestions based on environmental factors like Temperature, Humidity, and Soil Moisture.
 
-This project analyzes agricultural IoT data to understand crop conditions and forecast potential pest risks. Environmental factors such as soil moisture, temperature, and humidity are analyzed to identify patterns affecting crop health.
+## Features
+- **Data Cleaning:** Handles complex range-based strings and percentage formatting.
+- **Feature Engineering:** Includes interaction features (Temperature × Humidity, etc.) to improve model accuracy.
+- **Clustering:** Uses KMeans to group weather patterns and crop types.
+- **Predictive Modeling:** Compares **Random Forest Regressor** and **XGBoost Regressor** for Pest Risk prediction.
+- **Recommendation Engine:** Provides real-time suggestions for irrigation and specific pesticides.
 
-Machine learning techniques are applied to group crops based on environmental conditions and predict pest risk levels, enabling data-driven agricultural insights.
+## Model Performance
+The XGBoost model outperformed the Random Forest model with the following metrics:
+- **R² Score:** 0.99
+- **RMSE:** 0.53
+- **MAE:** 0.38
 
----
+## Visualizations
+The project includes:
+- KMeans Clustering plots for weather data.
+- Correlation Heatmaps of agricultural features.
+- Model performance comparison charts (RMSE, MAE, R2).
 
-### Dataset Features
-
-The dataset contains environmental parameters such as:
-
-* Soil Moisture (%)
-* Temperature (°C)
-* Humidity (%)
-* Pest Risk (%)
-* Crop Type
-
-These features are used to analyze environmental conditions and predict pest risk levels.
-
----
-
-### Technologies Used
-
-* **Python**
-* **Pandas**
-* **NumPy**
-* **Matplotlib**
-* **Seaborn**
-* **Scikit-learn**
-
----
-
-### Project Workflow
-
-**1. Data Preprocessing**
-
-* Cleaned the dataset
-* Handled missing values
-* Converted environmental range values into numeric format
-* Prepared features for analysis
-
-**2. Exploratory Data Analysis**
-
-* Analyzed relationships between environmental factors and pest risk
-* Generated visualizations to understand crop patterns
-
-**3. Clustering**
-
-* Applied **K-Means clustering** to group crops with similar environmental conditions.
-
-**4. Machine Learning Model**
-
-* Built a **Random Forest model** to predict pest risk levels based on environmental factors.
-
----
-
-### Results
-
-* Identified environmental patterns affecting pest outbreaks
-* Generated crop clusters based on environmental similarities
-* Built a predictive model for pest risk estimation
-
----
-
-### Future Improvements
-
-* Integrate real-time IoT sensor data
-* Deploy a web-based dashboard for visualization
-* Improve prediction accuracy using advanced models
+## How to Use
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the notebook or script to train the model.
+4. Use the `predict_pest_risk_with_suggestions()` function to get management advice for specific crops.
